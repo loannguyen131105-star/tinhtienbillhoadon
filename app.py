@@ -3,7 +3,7 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 st.set_page_config(page_title="Order Nhà Hàng", layout="wide")
- st.image("IMG_1682.jpeg")
+st.image("IMG_1682.jpeg")
 # Đường dẫn file dữ liệu dùng chung trên máy chủ
 CSV_FILE = "history.csv"
  
